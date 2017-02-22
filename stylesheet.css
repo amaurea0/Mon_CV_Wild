@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'Althea_Regular';
+    src: url('Althea_Regular.ttf');
+}
+html
+{
+    font-family:Althea_Regular;
+/*    background-size: 100% 100%;
+    font-size: 1.3em; 
+    word-wrap: 
+    break-word;*/
+}
+body
+{
+    background-color: rgb(104,187,285);
+    background-size: 100% 100%;
+    margin: 2%; 
+    font-size: 0.9em;   
+}
+
+#centree 
+{ 	
+	width:750px; 	
+	margin:0 auto 0 auto; 
+}
+header
+{
+    font-size: 1.2em;
+/*    padding-right:2%;*/
+}
+#container
+{
+/*    margin-left: 10%;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-box
+{
+	background-color: rgb(9,30,45);
+	color: white;
+	font-size: 0.9em;
+	margin-right: 10px;
+    padding: 10px;
+    width: 25%;
+    word-wrap: break-word;
+}
+
+#right-box
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 75%;
+}
+
+#experiences-box, #studies-box
+{
+
+    background-color: white;
+    margin-left: 10px;
+    padding: 10px;
+}
+#experiences-box
+{
+	margin-bottom: 10px;
+}
+#studies-box
+{
+	margin-top: 10px;
+}
+
+.imageflottante
+{
+/*    float: left;*/
+    border: 3px solid black;
+    box-shadow: 6px 6px 6px black;
+/*    position: relative;
+    right: 4%;*/
+}
+
+
+.auteur
+{
+    text-align: right;
+}
+.souligne
+{
+    text-decoration: underline;
+}
+header h1
+{
+    text-align: center;
+}
+#container h2
+{
+    font-size: 1.2em;
+}
+#container h1
+{
+	font-size: 1.4em;
+}
+p
+{
+    text-align: justify;
+}
+
+ul
+{
+	list-style: none;
+	padding-left:0;
+}
+
+ul li
+{
+	padding: 3px; 
+}
+
+
+footer
+{
+	background-color: rgb(9,80,205);
+	font-size: 1.1em;
+	margin-top: 20px;
+    padding: 10px;
+}
+
+@media all and (max-width:1024px)
+{
+body
+{
+    background-image: none;  
+}
+header,section
+{	
+    margin-left: auto;
+}
+#formation,#experience,#competence,#interet
+{
+    display: block;
+    width: auto;
+    padding: 4px 1.5%;
+}
+}
+
